@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "shadok-numbers",
+  "version": "${version}",
+  "name": "Shadok Numbers",
+  "description": "",
+  "authors": [
+    "CatCore"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shadok-numbers/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "shadok-numbers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
